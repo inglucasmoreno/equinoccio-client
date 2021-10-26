@@ -1,19 +1,49 @@
-<div class="mr-auto ml-auto mt-5 w-full">
-    <div class="md:w-1/2 md:w-160 mr-auto ml-auto p-4">
+<div class="gsap-header mr-auto ml-auto w-full pb-10 bg-white container">
+    <div class="gsap-header flex items-center justify-between p-4  w-full bg-gray-800">
+        <button routerLink="/home" class="text-gray-300 hover:text-yellow-300">  
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </button>
         <div class="flex items-center justify-center">
-            <div class="text-white leading-6 text-md text-center">
-                <div class="flex items-center justify-center">
-                    <img src="assets/img/Logo.png" class="gsap-logo w-14" alt="Logo Image">
-                    <h2 class="gsap-titulo ml-1 text-gray-300 text-3xl"> ¿Quiénes somos? </h2>
+            <img class="w-14 gsap-logo" src="/assets/img/Logo.png" alt="Logo Equinoccio">
+            <h1 class="gsap-titulo text-white text-2xl md:text-2xl ml-1"> Sobre nosotros </h1>
+        </div>
+        <div></div>
+    </div>
+    <div class="md:w-1/2 gsap-contenido md:w-160 mr-auto ml-auto p-4">
+        <div class="flex items-center justify-center">
+            <div class="text-white leading-6 text-md text-gray-800 text-center">
+                <div class="border-b-2 border-gray-800 pb-1">
+                    <h2 class="ml-1 text-3xl pl-2"> Equinoccio Technology </h2>
+                    <p class="text-gray-400 text-sm"> La tecnologia al alcance de todos </p>
                 </div>
-                <div class="gsap-contenido">
+                <div>
                     <p class="mt-4 leading-10">
                         Somos un startup Argentina creada en el año 2021. Su nacimiento se produce en un momento muy difícil a nivel mundial en el cual la tecnología pasa a ocupar un papel fundamental.
                     </p>
                     <p class="mt-2 leading-10">
-                        <span class="text-yellow-300 font-semibold"> Equinoccio Technology </span> se crea con el objetivo de acompañar el fortalecimiento de la sociedad, desarrollando productos y servicios tecnológicos propios para <span class="text-yellow-300 font-semibold"> colocar al alcance de todos, la revolución digital que se aproxima. </span>
+                        <span class="text-yellow-400 font-semibold"> Equinoccio Technology </span> se crea con el objetivo de acompañar el fortalecimiento de la sociedad, desarrollando productos y servicios tecnológicos propios para <span class="text-yellow-400 font-semibold"> colocar al alcance de todos, la revolución digital que se aproxima. </span>
                     </p>
-                    <button routerLink="/home" class="mt-8 w-full lg:w-1/2 border border-gray-300 text-gray-300 p-2 rounded text-xl hover:text-yellow-300 hover:border-yellow-300 lg:ml-2 mb-4"> Regresar </button>
+                </div>
+                <div class="mt-5 border-b-2 border-gray-800 pb-2">
+                    <h2 class="ml-1 text-3xl"> Nuestro equipo </h2>
+                    <p class="text-gray-400 text-sm"> El motor de nuestra startup </p>
+                </div>
+                <div class="md:flex md:items-center md:justify-between mt-4">
+                    <div>
+                        <img class="rounded-full mr-auto ml-auto w-1/2 md:w-11/12 mt-4 md:mt-0" src="assets/img/avatar.png" alt="Avatar 1">
+                        <p class="font-semibold text-gray-800"> Lucas Omar Moreno </p>
+                        <p class="text-sm text-gray-400"> Ing. Electronico OSD </p>
+                    </div>
+                    <div>
+                        <img class="rounded-full mr-auto ml-auto w-1/2 md:w-11/12 mt-4 md:mt-0" src="assets/img/avatar_2.png" alt="Avatar 1">
+                        <p class="font-semibold text-gray-800"> Yamil Daher Fet </p>
+                        <p class="text-sm text-gray-400"> Diseñador UX UI </p>
+                    </div>
+                    <div>
+                        <img class="rounded-full mr-auto ml-auto w-1/2 md:w-11/12 mt-4 md:mt-0" src="assets/img/avatar_3.png" alt="Avatar 1">
+                        <p class="font-semibold text-gray-800"> Fabricio Pereyra </p>
+                        <p class="text-sm text-gray-400"> Tec. en microprocesadores </p>
+                    </div>
                 </div>
             </div>
         </div>
